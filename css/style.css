@@ -1,3 +1,8 @@
+/* Debug */
+.debug{
+    border: 1px solid black;
+}
+
 /* Reset */
 *{
     margin: 0;
@@ -18,7 +23,62 @@ body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; /*vedere se si possono mettere i font corretti */
     color: #23272a;
 }
+.btn {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 16px 32px;
+    background-color: #8ea1e1;
+    color: #fff;
+    text-decoration: none;
+}
+.right{
+    float: right
+}
+.left{
+    float: left
+}
 
 /* Header */
+header{
+    width: 100%;
+    background-color: #3161E0;
+    font-size: 14px;
+}
+.container-header{
+    width: 90%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+.logo img{
+    vertical-align: middle;
+}
+.logo{
+    width: 20%;
+}
+.main-nav{
+    width: 60%;
+    text-align: center;
+}
+#accedi{
+    width: 20%;
+    text-align: center; /* ho voluto usare il center per evitare di far andare troppo oltre il bottone accedi */
+}
+div.main-nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+div.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#accedi .btn{
+    padding: 10px 14px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #23272a;
+    display: inline;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
 
 /* Footer */
