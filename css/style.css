@@ -37,11 +37,19 @@ body{
 .left{
     float: left
 }
+.white-black{
+    background-color: white;
+    color: black;
+}
+.black-white{
+    background-color: black;
+    color: white;
+}
 
 /* Header */
 header{
     width: 100%;
-    background-color: #3161E0;
+    background-color: #255EE9;
     font-size: 14px;
 }
 .container-header{
@@ -81,4 +89,37 @@ div.main-nav ul li a{
     text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Main */
+main{
+    position: relative;
+}
+.jumbotron{
+    width: 100%;
+    min-height: 546px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+.container-jumbotron{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+    color: white;
+}
+div.container-jumbotron h1{
+    font-size: 50px;
+}
+div.container-jumbotron p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+.jumbo-button-1, .jumbo-button-2{
+    display: inline-block;
+}
+.jumbo-button-1{
+    padding-right: 20px;
+}
 /* Footer */
