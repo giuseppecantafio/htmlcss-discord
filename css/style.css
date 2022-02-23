@@ -161,6 +161,18 @@ article#box-wave-2 img{
     margin: 0 auto;
     object-position: center;
 }
+.final-text{
+    font-size: 25px;
+    padding-top: 0%;
+    padding-bottom: 20px;
+    font-weight: 500px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.final-button{
+    text-align: center;
+}
 
 /* Wave */
 #box-wave-2{
