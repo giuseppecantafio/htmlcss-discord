@@ -125,25 +125,37 @@ div.container-jumbotron p{
     width: 80%;
     margin: 0 auto;
 }
-.box-1{
+.box{
     padding-top: 100px;
 }
-article.box-1 img{
+article.box img{
     width: 50%;
 }
-.text-1{
+.text-right{
     width: 50%;
     padding-left: 200px;
     padding-top: 32px;
 }
-.text-1 h2{
+.text-left{
+    width: 50%;
+    padding-right: 200px;
+    padding-top: 32px;
+}
+.text-right h2, .text-left h2{
     font-size: 50px;
 }
-.text-1 p{
+.text-right p, .text-left p{
     padding-top: 30px;
     line-height: 1.5em;
     font-weight: 500;
 }
+/* Wave */
+#box-wave{
+    width: 100%;
+    background-color: #F6F6F6;
+    overflow-x: visible;
+}
+
 
 
 
