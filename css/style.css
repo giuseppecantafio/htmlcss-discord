@@ -141,19 +141,32 @@ article.box img{
     padding-right: 200px;
     padding-top: 32px;
 }
-.text-right h2, .text-left h2{
+.text-right h2, .text-left h2, .text-center h2{
     font-size: 50px;
 }
-.text-right p, .text-left p{
+.text-right p, .text-left p, .text-center p{
     padding-top: 30px;
     line-height: 1.5em;
     font-weight: 500;
 }
+.text-center{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 32px;
+    text-align: center;
+}
+article#box-wave-2 img{
+    width: 90%;
+    padding-left: 10%;
+    margin: 0 auto;
+    object-position: center;
+}
+
 /* Wave */
-#box-wave{
+#box-wave-2{
     width: 100%;
+    padding-top: 100px;
     background-color: #F6F6F6;
-    overflow-x: visible;
 }
 
 
