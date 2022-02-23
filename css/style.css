@@ -20,7 +20,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; /*vedere se si possono mettere i font corretti */
+    font-family: 'Roboto', sans-serif;
     color: #23272a;
 }
 .btn {
@@ -53,7 +53,7 @@ header{
     font-size: 14px;
 }
 .container-header{
-    width: 90%;
+    width: 80%;
     height: 80px;
     line-height: 80px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ header{
 }
 #accedi{
     width: 20%;
-    text-align: center; /* ho voluto usare il center per evitare di far andare troppo oltre il bottone accedi */
+    text-align: right;
 }
 div.main-nav ul li{
     display: inline-block;
@@ -90,14 +90,13 @@ div.main-nav ul li a{
 }
 
 /* Main */
-main{
-    position: relative;
-}
+
 .jumbotron{
     width: 100%;
     min-height: 546px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    position: relative;
 }
 .container-jumbotron{
     width: 40%;
@@ -113,7 +112,7 @@ div.container-jumbotron h1{
 }
 div.container-jumbotron p{
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     line-height: 1.5em;
 }
 .jumbo-button-1, .jumbo-button-2{
@@ -122,4 +121,31 @@ div.container-jumbotron p{
 .jumbo-button-1{
     padding-right: 20px;
 }
+.container-article{
+    width: 80%;
+    margin: 0 auto;
+}
+.box-1{
+    padding-top: 100px;
+}
+article.box-1 img{
+    width: 50%;
+}
+.text-1{
+    width: 50%;
+    padding-left: 200px;
+    padding-top: 32px;
+}
+.text-1 h2{
+    font-size: 50px;
+}
+.text-1 p{
+    padding-top: 30px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+
+
+
 /* Footer */
