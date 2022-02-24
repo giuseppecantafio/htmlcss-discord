@@ -175,6 +175,20 @@ article#box-wave-2 img{
 }
 
 /* Wave */
+.wave{
+    padding-top: 100px;
+    color: #f6f6f6;
+    display: block;
+    margin-bottom: -5px;
+}
+.wave-rotate{
+    padding-top: 100px;
+    color: #f6f6f6;
+    display: block;
+    margin-top: -5px;
+    transform: rotate(180deg);
+}
+
 #box-wave-1, #box-wave-2{
     width: 100%;
     padding-top: 100px;
