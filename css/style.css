@@ -22,6 +22,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     color: #23272a;
+    min-width: 1200px;
 }
 .btn {
     display: inline-block;
