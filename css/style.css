@@ -193,6 +193,7 @@ article#box-wave-2 img{
 #box-wave-1, #box-wave-2{
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #F6F6F6;
 }
 
